@@ -9,14 +9,10 @@ export default function CalloutDescription({
   headingSize,
 }: HeadingTextDescription) {
   return (
-    <Section className="text-center p-3">
+    <Section className="sm:text-center p-3">
       <Heading style={{ fontSize: headingSize, lineHeight: 1 }}>Hi!</Heading>
       <Text style={{ fontSize: textSize }} className="block">
-        My name is Steve,
-      </Text>
-
-      <Text style={{ fontSize: textSize }} className="block">
-        I am from beautiful{" "}
+        My name is Steve, <br /> I am from beautiful{" "}
         <span
           className={lovelight.className}
           style={{ fontSize: "35px", color: "#A1B4E4" }}
