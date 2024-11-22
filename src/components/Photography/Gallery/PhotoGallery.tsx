@@ -19,8 +19,8 @@ export default function PhotographyGallery({
   textSize,
 }: HeadingTextDescription) {
   return (
-    <Section style={{ width: "600px", margin: "0 auto" }} className="pt-4">
-      <Box className="flex justify-start pl-8 pr-8 p-4">
+    <Section className="sm:w-[600px] sm:mx-auto pt-4">
+      <Box className="flex justify-start sm:pl-8 sm:pr-8 sm:p-4">
         <Container>
           <Heading style={{ fontSize: headingSize }}>Photography</Heading>
           <Text style={{ fontSize: textSize }}>
@@ -29,7 +29,7 @@ export default function PhotographyGallery({
           </Text>
         </Container>
       </Box>
-      <Box className="pl-8 flex gap-4">
+      <Box className="sm:pl-8 flex gap-4">
         {photos.map((data) => (
           <Dialog.Root key={data.id}>
             <Dialog.Trigger asChild>
@@ -58,7 +58,7 @@ export default function PhotographyGallery({
               </Box>
               <Dialog.Overlay className="DialogOverlay" />
               <Dialog.Content className="DialogContent">
-                <Section className="flex">
+                <Section className="sm:flex">
                   <Box>
                     <img
                       src={data.cloudfrontUrl.src}
