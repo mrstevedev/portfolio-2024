@@ -22,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" style={{ borderTop: "solid 4px #000" }}>
       <body className={junge.className}>
         <Providers>
           <Header />
