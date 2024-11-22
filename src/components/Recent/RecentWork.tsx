@@ -5,12 +5,8 @@ import RecentWorkItem from "@/components/Recent/RecentWorkItem";
 export default function RecentWork({ headingSize }: HeadingText) {
   return (
     <Section
-      className="flex justify-center items-center relative p-8"
-      style={{
-        left: "5.6rem",
-        margin: "0 auto",
-        width: "788px",
-      }}
+      className="sm:flex sm:justify-center sm:items-center sm:relative sm:p-8 sm:w-[788px] sm:mx-auto"
+      style={{ left: "5.6rem" }}
     >
       <Container>
         <Heading style={{ fontSize: headingSize }} className="pb-1">
@@ -38,7 +34,7 @@ const recent = [
     id: 2,
     company: "Rivian Automotive",
     title: "Sr. Software Engineer",
-    date: "November 2021 - June 2024",
+    date: "November 2021 - August 2024",
   },
   {
     id: 3,
