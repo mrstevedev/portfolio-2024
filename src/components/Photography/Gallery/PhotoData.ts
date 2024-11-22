@@ -1,10 +1,10 @@
-import theRayImage from "public/images/the_ray.png";
-import crystalLakeDark from "public/images/crystal_lake_dark.png";
-import crystalLakeLight from "public/images/crystal_lake_light.png";
+import theRayImage from "@/public/images/the_ray.png";
+import crystalLakeDark from "@/public/images/crystal_lake_dark.png";
+import crystalLakeLight from "@/public/images/crystal_lake_light.png";
 
-import theRayImageFull from "public/images/the_ray_apartments.webp";
-import crystalLakeDarkFull from "public/images/crystal_lake_dark.webp";
-import crystalLakeLightFull from "public/images/crystal_lake_light.webp";
+import theRayImageFull from "@/public/images/the_ray_apartments.webp";
+import crystalLakeDarkFull from "@/public/images/crystal_lake_dark.webp";
+import crystalLakeLightFull from "@/public/images/crystal_lake_light.webp";
 
 export const photos = [
   {
