@@ -14,7 +14,24 @@ export default function Header() {
           </Link>
         </Box>
         <Box className="flex w-full" style={{ justifyContent: "flex-end" }}>
-          <ThemeToggle />
+          <ul className="flex items-center gap-4">
+            <Link href="/" className="hover:text-gray-300 hover:transition-all">
+              <li>Home</li>
+            </Link>
+            <Link
+              href="/about"
+              className="hover:text-gray-300 hover:transition-all"
+            >
+              <li>About</li>
+            </Link>
+            <Link
+              href="/projects"
+              className="hover:text-gray-300 hover:transition-all"
+            >
+              <li>Projects</li>
+            </Link>
+          </ul>
+          {/* <ThemeToggle /> */}
         </Box>
       </Flex>
     </Container>
