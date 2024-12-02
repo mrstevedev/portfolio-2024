@@ -1,5 +1,9 @@
 import { Box, Container, Flex } from "@radix-ui/themes";
 import { Love_Light } from "next/font/google";
+import Image from "next/image";
+import vinylImg from "@/public/images/vinyl_image.webp";
+import collectionOne from "@/public/images/collection1.jpg";
+import collectionTwo from "@/public/images/collection2.jpg";
 
 const lovelight = Love_Light({ weight: "400", subsets: ["latin"] });
 
@@ -27,6 +31,20 @@ export default function page() {
             When I&apos;m not coding, I&apos;m enjoying a San Diego Padres
             baseball game, record shopping or listening to vinyl records from my
             vinyl record collection.
+          </p>
+        </Box>
+      </Flex>
+      <Flex className="pt-4">
+        <Box className="w-full">
+          <Image
+            src={collectionTwo}
+            alt="My Vinyl Record Collection"
+            width={550}
+            height={550}
+            className="w-[550px] mx-auto rounded-lg"
+          />
+          <p className="w-[550px] mx-auto mt-[0.5rem] text-sm italic">
+            The photo above is my vinyl record collection
           </p>
         </Box>
       </Flex>
