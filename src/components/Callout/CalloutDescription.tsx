@@ -21,11 +21,10 @@ export default function CalloutDescription({
         </span>{" "}
         classy, <span style={{ color: "#A1B4E4" }}>San Diego</span>, California
       </Text>
-
       <Section className="pt-5 lg:p-8">
         <Text style={{ fontSize: "20px" }}>
           I am a Sr. Software Engineer specializing in React, Next.js,
-          JavaScript, Typescript, Node.js{" "}
+          JavaScript, Typescript, Node.js, Python{" "}
           <span
             className={lovelight.className}
             style={{ fontSize: "27px", color: "#A1B4E4" }}
