@@ -5,10 +5,11 @@ const allura = Allura({ weight: "400", subsets: ["latin"] });
 export default function Footer() {
   return (
     <Box
-      className="bg-black w-full h-26 p-3 fixed bottom-0 flex"
+      className="bg-black w-full h-26 p-3 fixed bottom-0 flex items-center gap-2"
       style={{ justifyContent: "flex-end" }}
     >
-      <Text className={allura.className}>&copy;2024 Steven Pulido</Text>
+      <Text className="text-white text-xs">© 2023</Text>
+      <Text className={allura.className}>Steven Pulido</Text>
     </Box>
   );
 }
