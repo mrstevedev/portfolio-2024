@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Rivian() {
   return (
-    <div>
+    <div className="collection-img">
       <Link href={`/project/rivian-automotive`}>
         <Image
           src={rivianLogo}
@@ -12,7 +12,6 @@ export default function Rivian() {
           height={130}
           alt="Rivian Automotive Web Application development"
           priority
-          className=""
         />
       </Link>
       <p className="text-center">Rivian Automotive</p>

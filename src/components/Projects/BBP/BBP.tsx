@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function BBP() {
   return (
-    <div>
+    <div className="collection-img">
       <Link href={`/project/bbp-music-library`}>
         <Image
           src={bbpLogo}
