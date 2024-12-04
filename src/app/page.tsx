@@ -9,8 +9,8 @@ export default function Home() {
     <Container className="p-4 lg:p-32">
       <CalloutDescription headingSize="50px" textSize="33px" />
       <LetsConnect headingSize="18px" />
-      <RecentWork headingSize="24px" />
-      <PhotoGallery headingSize="24px" textSize="13px" />
+      <RecentWork headingSize="20px" />
+      <PhotoGallery headingSize="20px" textSize="13px" />
     </Container>
   );
 }
