@@ -1,8 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import { Box, Container, Flex } from "@radix-ui/themes";
 import { Love_Light } from "next/font/google";
-import collectionTwo from "@/public/images/collection2.jpg";
+import collectionTwo from "@/public/images/collection2.webp";
 import Link from "next/link";
+import Image from "next/image";
 
 const lovelight = Love_Light({ weight: "400", subsets: ["latin"] });
 
@@ -35,12 +36,13 @@ export default function page() {
       </Flex>
       <Flex className="pt-4">
         <Box className="m-auto flex flex-col">
-          <img
-            src={collectionTwo.src}
+          <Image
+            unoptimized
+            src={collectionTwo}
             alt="My Vinyl Record Collection"
             width={550}
             height={550}
-            className="w-[550px] mx-auto rounded-lg transition-all hover:opacity-90"
+            className="w-[550px] mx-auto rounded-lg collection-img"
           />
           <Flex className="m-auto w-full items-center">
             <p className="mx-auto m-[0.5rem] text-sm italic w-full">
