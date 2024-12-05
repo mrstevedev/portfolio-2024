@@ -6,13 +6,14 @@ export default function ProjectImage({ data }: any) {
     <>
       {data?.images.map((image: any) => {
         return (
-          <img
+          <Image
+            unoptimized
             key={image}
             src={image.src}
             width={400}
             height={400}
             alt={data.name}
-            className="w-full"
+            className="w-full collection-img"
           />
         );
       })}
