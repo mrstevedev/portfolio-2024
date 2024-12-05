@@ -27,13 +27,13 @@ const recent = [
   {
     id: 1,
     company: "BBP Music Library",
-    title: "Sr. Software Engineer",
-    date: "June 2021 - Present",
+    title: "Software Engineer",
+    date: "July 2020 - Present",
   },
   {
     id: 2,
     company: "Rivian Automotive",
-    title: "Sr. Software Engineer",
+    title: "Software Engineer",
     date: "November 2021 - August 2024",
   },
   {
