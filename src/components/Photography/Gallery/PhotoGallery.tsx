@@ -60,12 +60,13 @@ export default function PhotographyGallery({
               <Dialog.Content className="DialogContent">
                 <Section className="sm:flex">
                   <Box>
-                    <img
+                    <Image
+                      unoptimized
                       src={data.cloudfrontUrl.src}
                       width={data.cloudfrontUrl.width}
                       height={data.cloudfrontUrl.height}
                       alt={data.alt}
-                      className="rounded-lg"
+                      className="rounded-lg collection-img"
                     />
                   </Box>
                   <Box className="p-8 w-[312px]">

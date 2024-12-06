@@ -15,6 +15,13 @@ export type Photo = {
 
 export default function PhotoGalleryItem({ photo }: Photo) {
   return (
-    <img src={photo.thumbnail.src} width={149} height={98} alt={photo.alt} />
+    <Image
+      unoptimized
+      src={photo.thumbnail.src}
+      width={149}
+      height={98}
+      alt={photo.alt}
+      className="collection-img"
+    />
   );
 }
