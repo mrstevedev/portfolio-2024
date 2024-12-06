@@ -13,8 +13,8 @@ export default function page() {
       <Flex>
         <Box className="w-full">
           {" "}
-          <h1 className="w-[550px] mx-auto text-2xl">About Me</h1>
-          <p className="w-[550px] mx-auto leading-7">
+          <h1 className="lg:w-[550px] mx-auto text-2xl">About Me</h1>
+          <p className="lg:w-[550px] mx-auto leading-7">
             I am a developer from San Diego, California. I have worked in
             various industries from Telecommunications, Heath{" "}
             <span
@@ -27,7 +27,7 @@ export default function page() {
             <strong>BBP Music Library</strong>.
           </p>
           <br />
-          <p className="w-[550px] mx-auto leading-7">
+          <p className="lg:w-[550px] mx-auto leading-7">
             When I&apos;m not coding, I&apos;m enjoying a San Diego Padres
             baseball game, record shopping or listening to vinyl records from my
             vinyl record collection.
@@ -41,7 +41,7 @@ export default function page() {
             src={collectionTwo}
             alt="My Vinyl Record Collection"
             width={550}
-            height={550}
+            height={412}
             className="w-[550px] mx-auto rounded-lg collection-img"
           />
           <Flex className="m-auto w-full items-center">
