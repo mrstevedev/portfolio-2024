@@ -6,6 +6,7 @@ import Link from "next/link";
 
 export default function Header() {
   const pathname = usePathname();
+  const slug = pathname.split("/")[2];
 
   return (
     <Container size="1" className="p-5">
@@ -37,7 +38,9 @@ export default function Header() {
             <Link
               href="/projects"
               className={`hover:text-gray-300 hover:transition-all ${
-                pathname === "/projects" ? "text-[#a1b4e4]" : ""
+                pathname === "/projects" || pathname === `/project/${slug}`
+                  ? "text-[#a1b4e4]"
+                  : ""
               }`}
             >
               <li>Projects</li>
