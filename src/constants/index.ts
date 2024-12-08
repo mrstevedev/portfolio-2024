@@ -7,3 +7,7 @@ export enum URL {
   URL_LINKEDIN = "https://linkedin.com/in/spolido",
   URL_MAIL = "mailto:stevendotpulido@gmail.com",
 }
+
+export enum PATH {
+  PATH_RIVIAN = "rivian-automotive",
+}
