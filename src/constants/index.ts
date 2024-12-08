@@ -11,3 +11,7 @@ export enum URL {
 export enum PATH {
   PATH_RIVIAN = "rivian-automotive",
 }
+
+export enum TYPE {
+  TYPE_WDP = "Wiring Design Portal",
+}
