@@ -14,4 +14,5 @@ export enum PATH {
 
 export enum TYPE {
   TYPE_WDP = "Wiring Design Portal",
+  TYPE_CAMPFIRE = "Campfire",
 }
