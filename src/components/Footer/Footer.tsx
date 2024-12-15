@@ -9,7 +9,7 @@ export default function Footer() {
       className="bg-black w-full h-26 p-3 fixed bottom-0 flex items-center gap-2"
       style={{ justifyContent: "flex-end" }}
     >
-      <Text className="text-white text-xs">© {date}</Text>
+      <Text className={`${allura.className} text-sm`}>© {date}</Text>
       <Text className={allura.className}>Steven Pulido</Text>
     </Box>
   );
