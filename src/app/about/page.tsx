@@ -71,7 +71,7 @@ export default function page() {
                       className="w-[1050px] mx-auto rounded-lg collection-img"
                     />
                   </Box>
-                  <Box className=" p-8 sm:w-[312px]">
+                  <Box className="p-8 sm:w-[312px]">
                     <Section>
                       <Heading className="text-2xl">Location</Heading>
                       <Text className="text-sm text-gray-400 block">
