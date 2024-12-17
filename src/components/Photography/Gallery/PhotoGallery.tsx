@@ -33,7 +33,7 @@ export default function PhotographyGallery({
         {photos.map((data) => (
           <Dialog.Root key={data.id}>
             <Dialog.Trigger asChild>
-              <Link href="#">
+              <Link href="#" className="w-full">
                 <PhotoGalleryItem key={data.id} photo={data} />
               </Link>
             </Dialog.Trigger>

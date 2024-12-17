@@ -21,7 +21,7 @@ export default function PhotoGalleryItem({ photo }: Photo) {
       width={149}
       height={98}
       alt={photo.alt}
-      className="collection-img"
+      className="collection-img w-full"
     />
   );
 }
