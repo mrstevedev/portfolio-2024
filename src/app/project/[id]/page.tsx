@@ -4,7 +4,7 @@ import { projects } from "@/services/projects";
 import { PATH, TYPE } from "@/constants/index";
 import { capitalizeFirstCharacter } from "@/util/index";
 import { Box, Container, Flex, Section } from "@radix-ui/themes";
-import ProjectImage from "@/components/Projects/BBP/Images/ProjectImageBBP";
+import ProjectImage from "@/components/Projects/BBPMusicLibrary/Images/ProjectImageBBP";
 import ProjectImageWDP from "@/components/Projects/Rivian/projects/Wdp/ProjectImageWDP";
 import ProjectDescriptionWDP from "@/components/Projects/Rivian/projects/Wdp/ProjectDescriptionWDP";
 import ProjectImageCampfire from "@/components/Projects/Rivian/projects/Campfire/ProjectImageCampfire";

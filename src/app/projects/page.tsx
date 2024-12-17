@@ -1,7 +1,7 @@
 import { Love_Light } from "next/font/google";
 import { Box, Container, Flex } from "@radix-ui/themes";
 import Rivian from "@/components/Projects/Rivian/Rivian";
-import BbpMusicLibrary from "@/components/Projects/BBP/BbpMusicLibrary";
+import BbpMusicLibrary from "@/components/Projects/BBPMusicLibrary/BbpMusicLibrary";
 const lovelight = Love_Light({ weight: "400", subsets: ["latin"] });
 
 export default function Projects() {
