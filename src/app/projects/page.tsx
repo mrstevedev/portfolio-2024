@@ -1,9 +1,7 @@
-import BBP from "@/components/Projects/BBP/BBP";
-import Rivian from "@/components/Projects/Rivian/Rivian";
-import { Box, Container, Flex } from "@radix-ui/themes";
-
 import { Love_Light } from "next/font/google";
-
+import { Box, Container, Flex } from "@radix-ui/themes";
+import Rivian from "@/components/Projects/Rivian/Rivian";
+import BbpMusicLibrary from "@/components/Projects/BBP/BbpMusicLibrary";
 const lovelight = Love_Light({ weight: "400", subsets: ["latin"] });
 
 export default function Projects() {
@@ -23,7 +21,7 @@ export default function Projects() {
 
       <Box className="m-4">
         <Flex className="gap-4 justify-center items-center">
-          <BBP />
+          <BbpMusicLibrary />
           <Rivian />
         </Flex>
       </Box>
