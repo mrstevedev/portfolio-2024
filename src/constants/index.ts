@@ -10,6 +10,7 @@ export enum URL {
 
 export enum PATH {
   PATH_RIVIAN = "rivian-automotive",
+  PATH_BBP_MUSIC_LIBRARY = "bbp-music-library",
 }
 
 export enum TYPE {
