@@ -118,7 +118,7 @@ body {
 .DialogOverlay {
   position: fixed;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 1);
   animation: overlayShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
   backdrop-filter: blur(10px);
 }
