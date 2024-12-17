@@ -1,10 +1,29 @@
 import { Love_Light } from "next/font/google";
 import bbpImageTwo from "@/public/images/bbp_project_img_2.png";
-import rivianImageOne from "@/public/images/rivian_project_img_1.png";
-import wdpImage1 from "@/public/images/wdp_project1.png";
-import campfireImage1 from "@/public/images/campfire_img1.png";
+import rivianImage1 from "@/public/images/rivian_project1.png";
+import rivianImage2 from "@/public/images/rivian_project2.png";
+import rivianImageFull1 from "@/public/images/rivian_project_full1.png";
+import rivianImageFull2 from "@/public/images/rivian_project_full2.png";
+import wdpImage1 from "@/public/images/wdp_project1.webp";
+import wdpImage2 from "@/public/images/wdp_project2.webp";
+import wdpImage3 from "@/public/images/wdp_project3.webp";
+import wdpImage4 from "@/public/images/wdp_project4.webp";
+import wdpImage5 from "@/public/images/wdp_project5.webp";
+import campfireImage1 from "@/public/images/campfire_img1.webp";
+import campfireImage2 from "@/public/images/campfire_img2.png";
+import campfireImage3 from "@/public/images/campfire_img3.png";
+import campfireImage4 from "@/public/images/campfire_img4.png";
+import campfireImage5 from "@/public/images/campfire_img5.png";
 import wdpImageFull1 from "@/public/images/wdp_project_full1.webp";
+import wdpImageFull2 from "@/public/images/wdp_project_full2.webp";
+import wdpImageFull3 from "@/public/images/wdp_project_full3.webp";
+import wdpImageFull4 from "@/public/images/wdp_project_full4.webp";
+import wdpImageFull5 from "@/public/images/wdp_project_full5.webp";
 import ProjectImageFullCampfire from "@/public/images/campfire_project_full.png";
+import ProjectImageFullCampfire2 from "@/public/images/campfire_project_full2.png";
+import ProjectImageFullCampfire3 from "@/public/images/campfire_project_full3.png";
+import ProjectImageFullCampfire4 from "@/public/images/campfire_project_full4.png";
+import ProjectImageFullCampfire5 from "@/public/images/campfire_project_full5.png";
 
 const lovelight = Love_Light({ weight: "400", subsets: ["latin"] });
 
@@ -25,31 +44,56 @@ export const projects = [
     logo: `<svg height="40" viewBox="-.12 0 59.2 57.1" width="40" xmlns="http://www.w3.org/2000/svg"><path d="m58.78 26.3c-3.3-3.4-21.4-22-24.7-24.7-1.2-.9-2.7-1.6-4.6-1.6s-3.4.7-4.6 1.6c-3.4 2.7-21.4 21.3-24.8 24.7-.2.3 0 .8.4.8h7.8c.8 0 1.1-.1 1.6-.7s3.1-3.3 3.1-3.3c3.3-3.5 11.2-11.3 14.1-13.7 1.1-.9 2.3-.9 2.3-.9s1.3 0 2.3.9c3 2.5 11 10.2 14.2 13.7 0 0 2.6 2.8 3.1 3.3.5.6.8.7 1.6.7h7.8c.4 0 .7-.5.4-.8m-58.7 4.5c3.3 3.4 21.4 22 24.7 24.7 1.2.9 2.7 1.6 4.6 1.6s3.4-.7 4.6-1.6c3.4-2.7 21.4-21.3 24.7-24.7.3-.3 0-.8-.4-.8h-7.8c-.8 0-1.1.1-1.6.7s-3.1 3.3-3.1 3.3c-3.3 3.5-11.2 11.3-14.1 13.7-1.1.9-2.3.9-2.3.9s-1.3 0-2.3-.9c-2.9-2.4-10.9-10.2-14.1-13.7 0 0-2.6-2.8-3.1-3.3-.5-.6-.8-.7-1.6-.7h-7.8c-.4-.1-.6.4-.4.8m27.2 3.9c-1.5-1.4-4.1-3.9-5.1-5-.4-.5-.4-1.1-.4-1.1s0-.6.4-1.1c1-1.1 3.6-3.7 5.1-5 .6-.6.8-.9.8-1.6v-7.7c0-.3-.4-.5-.6-.2-3.3 3.1-10.7 10.4-13.2 13.2-1.2 1.3-1.1 2.5-1.1 2.5s-.1 1.3 1.1 2.5c2.5 2.8 9.9 10.2 13.2 13.2.3.3.6.1.6-.3v-7.7c-.1-.8-.2-1.1-.8-1.7m4.3 0c1.5-1.4 4.1-3.9 5.1-5 .4-.5.4-1.1.4-1.1s0-.6-.4-1.1c-1-1.1-3.6-3.7-5.1-5-.6-.6-.8-.9-.8-1.6v-7.7c0-.4.3-.5.6-.3 3.3 3.1 10.7 10.4 13.2 13.2 1.2 1.3 1.1 2.5 1.1 2.5s.1 1.3-1.1 2.5c-2.5 2.8-9.9 10.2-13.2 13.2-.3.3-.6.1-.6-.3v-7.7c.1-.7.2-1 .8-1.6" fill="#ffac00"/></svg>`,
     secondaryLogo: "",
     name: "Rivian Automotive",
-    description: `Internal software tools for internal employee use. I was involved in developing, scaling, <span class=${lovelight.className} style="font-size: 24px; color: #A1B4E4"> & </span> maintaining multiple greenfield micro frontend web applications that were accessed through a portal called RivianOS.`,
+    description: `At Rivian I was involved in developing, scaling, <span class=${lovelight.className} style="font-size: 24px; color: #A1B4E4"> & </span> maintaining multiple large-scale greenfield micro frontend web applications that were accessed internally through a portal called RivianOS.`,
     url: "#",
     host: "Amazon Web Services",
-    images: [rivianImageOne],
+    image_thumbnail: [rivianImage1, rivianImage2],
+    image_full: [rivianImageFull1, rivianImageFull2],
     rivian_projects: [
       {
         id: 1,
         logo: `<svg height="2406" viewBox="-.12 0 59.2 57.1" width="1555" xmlns="http://www.w3.org/2000/svg"><path d="m58.78 26.3c-3.3-3.4-21.4-22-24.7-24.7-1.2-.9-2.7-1.6-4.6-1.6s-3.4.7-4.6 1.6c-3.4 2.7-21.4 21.3-24.8 24.7-.2.3 0 .8.4.8h7.8c.8 0 1.1-.1 1.6-.7s3.1-3.3 3.1-3.3c3.3-3.5 11.2-11.3 14.1-13.7 1.1-.9 2.3-.9 2.3-.9s1.3 0 2.3.9c3 2.5 11 10.2 14.2 13.7 0 0 2.6 2.8 3.1 3.3.5.6.8.7 1.6.7h7.8c.4 0 .7-.5.4-.8m-58.7 4.5c3.3 3.4 21.4 22 24.7 24.7 1.2.9 2.7 1.6 4.6 1.6s3.4-.7 4.6-1.6c3.4-2.7 21.4-21.3 24.7-24.7.3-.3 0-.8-.4-.8h-7.8c-.8 0-1.1.1-1.6.7s-3.1 3.3-3.1 3.3c-3.3 3.5-11.2 11.3-14.1 13.7-1.1.9-2.3.9-2.3.9s-1.3 0-2.3-.9c-2.9-2.4-10.9-10.2-14.1-13.7 0 0-2.6-2.8-3.1-3.3-.5-.6-.8-.7-1.6-.7h-7.8c-.4-.1-.6.4-.4.8m27.2 3.9c-1.5-1.4-4.1-3.9-5.1-5-.4-.5-.4-1.1-.4-1.1s0-.6.4-1.1c1-1.1 3.6-3.7 5.1-5 .6-.6.8-.9.8-1.6v-7.7c0-.3-.4-.5-.6-.2-3.3 3.1-10.7 10.4-13.2 13.2-1.2 1.3-1.1 2.5-1.1 2.5s-.1 1.3 1.1 2.5c2.5 2.8 9.9 10.2 13.2 13.2.3.3.6.1.6-.3v-7.7c-.1-.8-.2-1.1-.8-1.7m4.3 0c1.5-1.4 4.1-3.9 5.1-5 .4-.5.4-1.1.4-1.1s0-.6-.4-1.1c-1-1.1-3.6-3.7-5.1-5-.6-.6-.8-.9-.8-1.6v-7.7c0-.4.3-.5.6-.3 3.3 3.1 10.7 10.4 13.2 13.2 1.2 1.3 1.1 2.5 1.1 2.5s.1 1.3-1.1 2.5c-2.5 2.8-9.9 10.2-13.2 13.2-.3.3-.6.1-.6-.3v-7.7c.1-.7.2-1 .8-1.6" fill="#ffac00"/></svg>`,
         name: "Wiring Design Portal",
-        image_thumbnail: [wdpImage1],
-        image_full: [wdpImageFull1],
+        image_thumbnail: [
+          wdpImage1,
+          wdpImage2,
+          wdpImage3,
+          wdpImage4,
+          wdpImage5,
+        ],
+        image_full: [
+          wdpImageFull1,
+          wdpImageFull2,
+          wdpImageFull3,
+          wdpImageFull4,
+          wdpImageFull5,
+        ],
         description: `<p>The Wiring Design Portal provides interactive access to all released wiring information in web-based format, providing information to stakeholders in a searchable, cross referenced, intuitive format, making released wiring data accessible, intuitive <span class=${lovelight.className} style="font-size: 24px; color: #A1B4E4"> & </span> consolidated in one place.</p>
-           <br/><p>Provides a single source of information for all released HarnessXC, Physical wiring <span class=${lovelight.className} style="font-size: 24px; color: #A1B4E4"> & </span>and logical diagram, integrator plane view, 3DX JT views, library data <span class=${lovelight.className} style="font-size: 24px; color: #A1B4E4"> & </span> wiring report data</p>`,
+           <br/><p>Provides a single source of information for all released HarnessXC, Physical wiring, logical diagram, integrator plane view, 3DX JT views, library data <span class=${lovelight.className} style="font-size: 24px; color: #A1B4E4"> & </span> wiring report data</p>`,
       },
       {
         id: 2,
         logo: `<svg height="2406" viewBox="-.12 0 59.2 57.1" width="1555" xmlns="http://www.w3.org/2000/svg"><path d="m58.78 26.3c-3.3-3.4-21.4-22-24.7-24.7-1.2-.9-2.7-1.6-4.6-1.6s-3.4.7-4.6 1.6c-3.4 2.7-21.4 21.3-24.8 24.7-.2.3 0 .8.4.8h7.8c.8 0 1.1-.1 1.6-.7s3.1-3.3 3.1-3.3c3.3-3.5 11.2-11.3 14.1-13.7 1.1-.9 2.3-.9 2.3-.9s1.3 0 2.3.9c3 2.5 11 10.2 14.2 13.7 0 0 2.6 2.8 3.1 3.3.5.6.8.7 1.6.7h7.8c.4 0 .7-.5.4-.8m-58.7 4.5c3.3 3.4 21.4 22 24.7 24.7 1.2.9 2.7 1.6 4.6 1.6s3.4-.7 4.6-1.6c3.4-2.7 21.4-21.3 24.7-24.7.3-.3 0-.8-.4-.8h-7.8c-.8 0-1.1.1-1.6.7s-3.1 3.3-3.1 3.3c-3.3 3.5-11.2 11.3-14.1 13.7-1.1.9-2.3.9-2.3.9s-1.3 0-2.3-.9c-2.9-2.4-10.9-10.2-14.1-13.7 0 0-2.6-2.8-3.1-3.3-.5-.6-.8-.7-1.6-.7h-7.8c-.4-.1-.6.4-.4.8m27.2 3.9c-1.5-1.4-4.1-3.9-5.1-5-.4-.5-.4-1.1-.4-1.1s0-.6.4-1.1c1-1.1 3.6-3.7 5.1-5 .6-.6.8-.9.8-1.6v-7.7c0-.3-.4-.5-.6-.2-3.3 3.1-10.7 10.4-13.2 13.2-1.2 1.3-1.1 2.5-1.1 2.5s-.1 1.3 1.1 2.5c2.5 2.8 9.9 10.2 13.2 13.2.3.3.6.1.6-.3v-7.7c-.1-.8-.2-1.1-.8-1.7m4.3 0c1.5-1.4 4.1-3.9 5.1-5 .4-.5.4-1.1.4-1.1s0-.6-.4-1.1c-1-1.1-3.6-3.7-5.1-5-.6-.6-.8-.9-.8-1.6v-7.7c0-.4.3-.5.6-.3 3.3 3.1 10.7 10.4 13.2 13.2 1.2 1.3 1.1 2.5 1.1 2.5s.1 1.3-1.1 2.5c-2.5 2.8-9.9 10.2-13.2 13.2-.3.3-.6.1-.6-.3v-7.7c.1-.7.2-1 .8-1.6" fill="#ffac00"/></svg>`,
         name: "Campfire",
-        image_thumbnail: [campfireImage1],
-        image_full: [ProjectImageFullCampfire],
+        image_thumbnail: [
+          campfireImage1,
+          campfireImage2,
+          campfireImage3,
+          campfireImage4,
+          campfireImage5,
+        ],
+        image_full: [
+          ProjectImageFullCampfire,
+          ProjectImageFullCampfire2,
+          ProjectImageFullCampfire3,
+          ProjectImageFullCampfire4,
+          ProjectImageFullCampfire5,
+        ],
         description: `<p>Campfire is a platform for connecting engineering, manufacturing, configuration, change management, vehicle integration processes <span class=${lovelight.className} style="font-size: 24px; color: #A1B4E4"> & </span> data to drive collaboration/clear device reguirements for vehicle wire harness definition.</p><br/>
               <p>A central software tool driving a process to enter and store all electrical requirements in the form of device transmittals (DTs) for use in the design for vehicle wire harnesses.</p>`,
       },
     ],
     technologies:
-      "React, Redux, Javascript, Typescript, Node.js, Python, SQL, Postgres, Prisma, MongoDB, AWS, REST, GraphQL, Apollo, HTML5, CSS3, Webpack, Git, Jest.",
+      "React, Redux, Javascript, Typescript, Node.js, Python, SQL, Postgres, Prisma, MongoDB, AWS, REST, GraphQL, Apollo, HTML5, CSS3, Webpack, Git, Jest, React Testing Library, TDD.",
   },
 ];
