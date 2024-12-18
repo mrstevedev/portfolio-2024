@@ -10,19 +10,19 @@ import wdpImage3 from "@/public/images/wdp_project3.webp";
 import wdpImage4 from "@/public/images/wdp_project4.webp";
 import wdpImage5 from "@/public/images/wdp_project5.webp";
 import campfireImage1 from "@/public/images/campfire_img1.webp";
-import campfireImage2 from "@/public/images/campfire_img2.png";
-import campfireImage3 from "@/public/images/campfire_img3.png";
-import campfireImage4 from "@/public/images/campfire_img4.png";
-import campfireImage5 from "@/public/images/campfire_img5.png";
+import campfireImage2 from "@/public/images/campfire_img2.webp";
+import campfireImage3 from "@/public/images/campfire_img3.webp";
+import campfireImage4 from "@/public/images/campfire_img4.webp";
+import campfireImage5 from "@/public/images/campfire_img5.webp";
 import wdpImageFull1 from "@/public/images/wdp_project_full1.webp";
 import wdpImageFull2 from "@/public/images/wdp_project_full2.webp";
 import wdpImageFull3 from "@/public/images/wdp_project_full3.webp";
 import wdpImageFull4 from "@/public/images/wdp_project_full4.webp";
 import wdpImageFull5 from "@/public/images/wdp_project_full5.webp";
-import ProjectImageFullCampfire from "@/public/images/campfire_project_full.png";
-import ProjectImageFullCampfire2 from "@/public/images/campfire_project_full2.png";
-import ProjectImageFullCampfire3 from "@/public/images/campfire_project_full3.png";
-import ProjectImageFullCampfire4 from "@/public/images/campfire_project_full4.png";
+import ProjectImageFullCampfire from "@/public/images/campfire_project_full.webp";
+import ProjectImageFullCampfire2 from "@/public/images/campfire_project_full2.webp";
+import ProjectImageFullCampfire3 from "@/public/images/campfire_project_full3.webp";
+import ProjectImageFullCampfire4 from "@/public/images/campfire_project_full4.webp";
 import ProjectImageFullCampfire5 from "@/public/images/campfire_project_full5.png";
 
 const lovelight = Love_Light({ weight: "400", subsets: ["latin"] });
@@ -94,6 +94,6 @@ export const projects = [
       },
     ],
     technologies:
-      "React, Redux, Javascript, Typescript, Node.js, Python, SQL, Postgres, Prisma, MongoDB, AWS, REST, GraphQL, Apollo, HTML5, CSS3, Webpack, Git, Jest, React Testing Library, TDD.",
+      "React, Redux, Javascript, Typescript, Node.js, Python, SQL, Postgres, Prisma, MongoDB, AWS, REST, GraphQL, Apollo, HTML5, CSS3, MaterialUI, Webpack, Git, Jest, React Testing Library, TDD.",
   },
 ];
