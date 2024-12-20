@@ -2,7 +2,7 @@ import bbpLogo from "@/public/bbp-logo.svg";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function BBP() {
+export default function BbpMusicLibrary() {
   return (
     <div className="collection-img">
       <Link href={`/project/bbp-music-library`}>

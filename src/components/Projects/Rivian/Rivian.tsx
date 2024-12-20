@@ -9,7 +9,7 @@ export default function Rivian() {
         <Image
           src={rivianLogo}
           width={130}
-          height={130}
+          height={201}
           alt="Rivian Automotive Web Application development"
           priority
         />
